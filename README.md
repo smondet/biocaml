@@ -1,5 +1,8 @@
 [Biocaml](http://biocaml.org) - The OCaml Bioinformatics Library
 
+
+**This is a dummy test branch**
+
 DESCRIPTION
 ===========
 Biocaml aims to be a high-performance user-friendly library for
