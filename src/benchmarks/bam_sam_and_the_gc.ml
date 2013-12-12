@@ -9,7 +9,7 @@ let main ?gc_call input_file () =
     match gc_call with
     | None -> ((fun () -> ()), "no GC call")
     | Some "minor" -> (Gc.minor, "call Gc.minor")
-    | Some "major" -> (Gc.minor, "call Gc.major")
+    | Some "major" -> (Gc.major, "call Gc.major")
     | Some hmm -> 
       failwithf "cannot understand gc_call: %S" hmm ()
   in
